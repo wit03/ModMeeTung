@@ -16,7 +16,7 @@ const messageHandler = (event) => {
     } else {
         return client.replyMessage(token, {
             type: "text",
-            text: "ขอโทษครับ, เรายังไม่เข้าใจสิ่งที่คุณพิมพ์",
+            text: "ขอโทษครับเรายังไม่เข้าใจสิ่งที่คุณพิมพ์",
         });
     }
 }

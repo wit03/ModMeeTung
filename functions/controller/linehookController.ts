@@ -1,7 +1,6 @@
 import { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
 import { client } from "../router";
 import messageHandler from "./features/messageHandler";
-import replyOthers from "./features/replyOthers";
 
 const channelToken = process.env.LINE_CHANNEL_ACCESS_TOKEN;
 
