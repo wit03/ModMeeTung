@@ -13,7 +13,7 @@
     "@vercel/node": "^2.4.2"
   },
   "dependencies": {
-    "@line/bot-sdk": "^7.5.0",
+    "@line/bot-sdk": "^7.5.2",
     "airtable": "^0.11.4",
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
