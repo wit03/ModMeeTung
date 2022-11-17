@@ -1,4 +1,4 @@
-# ModMeeTung
+# ModMeeTung 🐜
 > A personal financial management tools that will help you to "mee tung"
 
 ### Features
