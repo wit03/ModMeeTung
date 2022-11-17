@@ -1,4 +1,5 @@
 import { client } from "../../router"
+import noContextHandler from "./noContextHandler"
 import summaryHandler from "./summaryHandler"
 import transactionLogHandler from "./transactionLogHandler"
 
@@ -10,10 +11,7 @@ const messageHandler = (event) => {
     } else if (msg.match(/สรุป/g)) {
         return summaryHandler(msg, token)
     } else {
-        return client.replyMessage(token, {
-            type: "text",
-            text: "Bruh, I dont understand",
-        });
+        return noContextHandler(msg, token)
     }
 }
 
