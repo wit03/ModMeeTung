@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@line/bot-sdk": "^7.5.0",
-    "airtable": "^0.11.4",
+    "airtable": "^0.11.6",
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
     "fastify": "^3.18.1"
