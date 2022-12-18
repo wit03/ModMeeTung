@@ -79,7 +79,7 @@ const summaryHandler = async (msg, token) => {
                                             type: "filler"
                                         }
                                     ],
-                                    width: "70%",
+                                    width: JSON.stringify((dailySpending/dailyGoal) * 100) + "%",
                                     backgroundColor: "#0D8186",
                                     height: "6px"
                                 }
@@ -158,7 +158,7 @@ const summaryHandler = async (msg, token) => {
                                             type: "filler"
                                         }
                                     ],
-                                    width: "100%",
+                                    width: JSON.stringify((monthlySpending/monthlyGoal) * 100) + "%",
                                     backgroundColor: "#7D51E4",
                                     height: "6px"
                                 }
