@@ -183,7 +183,7 @@ const summaryHandler = async (msg, token) => {
                             contents: [
                                 {
                                     type: "text",
-                                    text: JSON.stringify(monthlySpending) + "/ " + monthlyGoal+ "฿",
+                                    text: JSON.stringify(monthlySpending) + "/" + monthlyGoal+ "฿",
                                     color: "#8C8C8C",
                                     size: "sm",
                                     wrap: true
