@@ -60,7 +60,7 @@ const summaryHandler = async (msg, token) => {
                         },
                         {
                             type: "text",
-                            text: ((dailySpending/dailyGoal) * 100).toFixed(2) + "%",
+                            text: ((dailySpending/dailyGoal) * 100).toFixed(1) + "%",
                             color: "#ffffff",
                             align: "start",
                             size: "xs",
@@ -139,7 +139,7 @@ const summaryHandler = async (msg, token) => {
                         },
                         {
                             type: "text",
-                            text: ((monthlySpending/monthlyGoal) * 100).toFixed(2) + "%",
+                            text: ((monthlySpending/monthlyGoal) * 100).toFixed(1) + "%",
                             color: "#ffffff",
                             align: "start",
                             size: "xs",
